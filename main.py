@@ -1,7 +1,6 @@
 from itertools import combinations
 
 def normalize_courses(course_string):
-    """Convert 'Course1, Course2' → set(['Course1', 'Course2'])"""
     return set(course.strip() for course in course_string.split(","))
 
 
